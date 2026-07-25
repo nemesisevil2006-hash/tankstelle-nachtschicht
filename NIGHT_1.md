@@ -1,67 +1,102 @@
-# Nacht 1
+# Game Design Document
 
-## Ziel der ersten Nacht
+## Projektname
+Tankstelle – Nachtschicht
 
-Die erste Nacht soll den Spieler langsam in die Tankstelle, die Arbeit und die Atmosphäre einführen.
+## Genre
+2D Survival-Horror Browser Game
 
-Sie beginnt ruhig und normal.
+## Setting
 
-Erst nach und nach passieren kleine Dinge, die merkwürdig wirken, aber noch nicht eindeutig übernatürlich sind.
+Das Spiel spielt an einer Tankstelle in einer größeren Stadt.
 
----
+Tagsüber wirkt die Umgebung noch relativ sicher. Geschäfte sind geöffnet, Überlebende bewegen sich durch die Stadt und der Spieler kann Vorräte beschaffen, schlafen und die Tankstelle verbessern.
 
-## Ablauf
+Nachts wird die Stadt von Zombies und anderen Gefahren überrannt.
 
-### 22:00 – Schichtbeginn
-
-- Der Spieler übernimmt die Tankstelle.
-- Eine kurze Notiz des vorherigen Mitarbeiters liegt auf dem Tresen.
-- Der Spieler lernt:
-  - Kunden bedienen
-  - Kasse benutzen
-  - Regale kontrollieren
-  - Kameras ansehen
-
-### 23:00 – Erste Kunden
-
-- Normale Kunden kommen.
-- Ein Stammkunde erzählt etwas über einen Unfall auf der alten Straße.
-- Draußen flackert kurz eine Lampe.
-
-### 00:00 – Seltsamer Besucher
-
-- Ein Kunde kommt herein, kauft aber nichts.
-- Er steht ungewöhnlich lange vor dem Kühlregal.
-- Später ist er auf den Überwachungskameras nicht zu sehen.
-
-### 01:00 – Erste Entscheidung
-
-Der Spieler hört ein Geräusch im Lager.
-
-Mögliche Entscheidungen:
-
-- Nachsehen
-- Die Tür verschließen
-- Die Kameras überprüfen
-- Das Geräusch ignorieren
+Die Tankstelle wird zu einem der letzten sicheren Orte im Viertel.
 
 ---
 
-## Atmosphäre
+## Spielercharakter
 
-- Regen
-- Neonlicht
-- Leises Brummen der Kühlgeräte
-- Entfernte Autos
-- Gelegentliches Funkrauschen
-- Keine billigen Jumpscares
+Der Spieler kann wählen zwischen:
+
+- einem selbst erstellten Charakter
+- einem männlichen vorgefertigten Charakter
+- einem weiblichen vorgefertigten Charakter
+
+Aussehen, Name und einige Eigenschaften können angepasst werden.
 
 ---
 
-## Ende der ersten Nacht
+## Kern-Spielablauf
 
-Die Nacht endet mit einem kleinen Hinweis darauf, dass etwas nicht stimmt.
+### Tagsüber
 
-Beispiel:
+- schlafen und Energie regenerieren
+- Vorräte kaufen oder suchen
+- Waffen und Werkzeuge verbessern
+- Barrikaden bauen
+- Generator und Tankstelle reparieren
+- Regale auffüllen
+- Beziehungen zu anderen Figuren aufbauen
+- neue Begleiter oder Mitarbeiter aufnehmen
+- Entscheidungen für die kommende Nacht treffen
 
-Auf der Überwachungskamera ist für einen kurzen Moment eine Person zu sehen, obwohl der Verkaufsraum leer ist.
+### Nachts
+
+- Kunden bedienen
+- Zombies bekämpfen
+- Türen und Fenster verteidigen
+- Überlebende hereinlassen oder abweisen
+- Tankstelle und Generator am Laufen halten
+- Munition, Nahrung und Energie verwalten
+- besondere Ereignisse überleben
+- bis zum Sonnenaufgang durchhalten
+
+---
+
+## Ton und Atmosphäre
+
+Das Spiel verbindet:
+
+- Survival-Horror
+- Spannung
+- schwarzen Humor
+- schräge Kunden
+- Flirts und Erwachsenen-Humor
+- Beziehungen und Eifersucht
+- brutale Zombieangriffe
+- ruhige Momente zwischen den Angriffen
+
+Das Spiel darf sexy und erwachsen wirken, soll aber keine reine Pornografie werden.
+
+---
+
+## Figuren und Beziehungen
+
+Im Verlauf des Spiels begegnet der Spieler verschiedenen Frauen und Männern.
+
+Einige können:
+
+- Mitarbeiter werden
+- bei der Verteidigung helfen
+- romantische Beziehungen eingehen
+- den Spieler betrügen
+- Geheimnisse besitzen
+- während eines Angriffs gerettet werden müssen
+
+Entscheidungen beeinflussen Vertrauen, Beziehungen und mögliche Enden.
+
+---
+
+## Kernprinzipien
+
+- Tagsüber vorbereiten, nachts überleben
+- Entscheidungen haben sichtbare Folgen
+- Horror und Humor wechseln sich ab
+- verschiedene Charaktere und Beziehungen
+- mehrere Enden
+- Ausbau der Tankstelle
+- hoher Wiederspielwert
