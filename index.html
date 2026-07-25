@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080b10" />
+    <title>Tankstelle – Nachtschicht</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="game"></div>
+
+      <section id="menu" class="panel">
+        <p class="eyebrow">PROJECT NEMI</p>
+        <h1>Tankstelle<br />Nachtschicht</h1>
+        <p class="intro">
+          Eine ruhige Schicht. Eine abgelegene Tankstelle.
+          Und etwas draußen, das nicht weggeht.
+        </p>
+        <button id="start-button">Neue Nachtschicht</button>
+        <p class="controls">Steuerung: WASD, Pfeiltasten oder Touch-Steuerkreuz</p>
+      </section>
+
+      <aside id="hud" hidden>
+        <div>
+          <span class="label">Uhrzeit</span>
+          <strong id="clock">22:00</strong>
+        </div>
+        <div>
+          <span class="label">Aufgabe</span>
+          <strong>Tankstelle kontrollieren</strong>
+        </div>
+      </aside>
+
+      <div id="message" hidden></div>
+
+      <div id="touch-controls" hidden aria-label="Touch-Steuerung">
+        <button class="touch-button touch-up" data-direction="up" aria-label="Nach oben">▲</button>
+        <button class="touch-button touch-left" data-direction="left" aria-label="Nach links">◀</button>
+        <button class="touch-button touch-right" data-direction="right" aria-label="Nach rechts">▶</button>
+        <button class="touch-button touch-down" data-direction="down" aria-label="Nach unten">▼</button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
