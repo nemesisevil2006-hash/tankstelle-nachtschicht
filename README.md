@@ -1,12 +1,48 @@
 # Tankstelle – Nachtschicht
 
-Ein atmosphärisches Tankstellen-Spiel, das während einer Nachtschicht spielt.
+Erster spielbarer Prototyp eines atmosphärischen Browsergames.
 
-## Vision
+## Enthalten in Version 0.1
 
-Der Spieler übernimmt eine Nachtschicht an einer abgelegenen Tankstelle. Anfangs wirkt alles normal, doch mit jeder Stunde passieren merkwürdigere Ereignisse. Die Entscheidungen des Spielers beeinflussen den Verlauf der Nacht.
+- Startmenü
+- Kleine begehbare Tankstelle
+- Spielerbewegung mit WASD oder Pfeiltasten
+- Laufende Nacht-Uhr
+- Erste kontextabhängige Textmeldungen
+- Responsive Darstellung für Desktop und Smartphone
+- Keine externen Grafiken nötig
 
-## Projektstatus
+## Lokal starten
 
-🚧 Projektstart
+Voraussetzung: Node.js 20 oder neuer.
 
+```bash
+npm install
+npm run dev
+```
+
+Danach die angezeigte lokale Adresse im Browser öffnen.
+
+## Produktionsversion bauen
+
+```bash
+npm run build
+```
+
+Die fertigen Dateien landen im Ordner `dist`.
+
+## Auf GitHub hochladen
+
+Den Inhalt dieses ZIP-Archivs direkt in das Repository
+`nemesisevil2006-hash/tankstelle-nachtschicht` hochladen.
+
+Wichtig: Nicht den äußeren ZIP-Ordner hochladen, sondern die darin enthaltenen Dateien und Ordner.
+
+## Nächste geplante Schritte
+
+- Kollisionen mit Regalen und Wänden
+- Interaktionstaste
+- Kunden und Kasse
+- Lichtschalter und Stromausfall
+- Erste Horrorereignisse
+- Sounds und echte Grafiken
